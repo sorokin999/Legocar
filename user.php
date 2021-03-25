@@ -3,11 +3,11 @@
 include 'connect.php';
 
 class user {
-    public $id, 
-    public $name,
-    public $surname, 
-    public $login, 
-    public $pas,
+    public $id;
+    public $name;
+    public $surname; 
+    public $login;
+    public $pas;
     public $lvl;
     
     public function  get_user($i) {
