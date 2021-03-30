@@ -1,0 +1,124 @@
+*  {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.container {
+    width: 100%;
+}
+.container-1 {
+    width: 100%;
+    background-image: url(..//img/reg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.header {
+    background-image: url(..//img/Car.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:  760px;
+}
+.nav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-1{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 40px;
+    margin-bottom: 40px;
+}
+.logo_lego {
+    padding-top: 5px;
+    margin-left: 50%;
+    width: 80px;
+    height: 35px;
+}
+.logo_lego-1{
+    display: block;
+    padding-top: 5px;
+    width: 80px;
+    height: 30px;
+    margin: auto;
+}
+.login {
+    display: block;
+    padding: 10px 25px ;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    color: rgb(196, 195, 195);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.login:hover {
+    background-color: rgba(0, 0, 0, 0.658);
+    transition: background .4s linear;
+    color: white;
+}
+.center{
+    margin-top: 550px;
+    text-align: center;
+}
+.btn{
+    padding: 20px 60px ;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.85);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: rgb(196, 195, 195);
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: black;
+    transition: background .4s linear;
+    color: white;
+}
+.reg{
+    opacity: 0.95;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 400px;
+    height: 250px;
+    border-radius: 8px ;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    text-align: center;
+    background-color: rgb(14 12 12);
+}
+.h1_reg{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f5f3f3;
+}
+
+.pole{
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 26px;
+    background: #ffffff;
+    margin-top: 10px;
+    padding: 10px 25px;
+}
+.btn-reg{
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 26px;
+    background: #ffffff;
+    color: black;
+    margin-top: 15px;
+    padding: 10px 50px;
+}
+.btn-reg:hover{
+    background: rgb(80, 8, 8);
+}

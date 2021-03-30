@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(..//img/reg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 32px;
+}
+
+.logo {
+    display: block;
+    padding-top: 5px;
+    width: 80px;
+    height: 30px;
+    margin: auto;
+}
+.content {
+    
+}
+.active{
+    padding-left: 10px;
+    padding-top: 15px;
+    text-transform: none;
+}
+.active a{
+    text-decoration: none;
+    color: black;
+}
+.bar{
+    display: block;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.445);
+    width: 15%;
+    min-height: 95.5vh;
+}
+.block{
+    display: block;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.445);
+    width: 83%;
+}
